@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: Game(),
       title: 'Tic-Tac-Toe',
       theme: ThemeApp.themeData,
+      debugShowCheckedModeBanner: false,
     );
   }
 }
